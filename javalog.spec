@@ -2,7 +2,7 @@ Summary:	JavaLog
 Summary(pl):	JavaLog
 Name:		javalog
 Version:	0.7.3
-Release:	1
+Release:	2
 Group:		Development/Languages/Java
 Group(de):	Entwicklung/Sprachen/Java
 Group(pl):	Programowanie/Jêzyki/Java
@@ -41,18 +41,17 @@ zdarzeñ.
 %setup -q -n grace-%{version}
 
 %build
-find . -name \*.class -exec rm {} \;
-install -d dist
-find . -name \*.java | xargs javac -classpath classes:%{_libdir}/java/gnu-regexp.jar -d dist -O
-( cd dist
-  jar cf ../grace.jar .
-)
+#install -d dist
+#find . -name \*.java | xargs javac -classpath classes:%{_javaclassdir}/gnu-regexp.jar -d dist -O
+#( cd dist
+#  jar cf ../grace.jar .
+#)
 find docs -name CVS | xargs rm -rf
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_javaclassdir}
-install grace.jar $RPM_BUILD_ROOT%{_javaclassdir}
+install lib/grace.jar $RPM_BUILD_ROOT%{_javaclassdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
