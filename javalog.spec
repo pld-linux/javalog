@@ -9,8 +9,10 @@ Group(pl):	Programowanie/Jêzyki/Java
 Url:		http://javalog.sourceforge.net
 Source0:	http://prdownloads.sourceforge.net/%{name}/grace-%{version}.tar.gz
 License:	Mozilla Public License
+BuildRequires:	jdk
 BuildRequires:	gnu.regexp
 Requires:	gnu.regexp
+Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
