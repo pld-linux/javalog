@@ -3,10 +3,10 @@ Summary(pl):	JavaLog
 Name:		javalog
 Version:	0.7.3
 Release:	2
+License:	MPL
 Group:		Development/Languages/Java
 Url:		http://javalog.sourceforge.net
 Source0:	http://prdownloads.sourceforge.net/%{name}/grace-%{version}.tar.gz
-License:	Mozilla Public License
 BuildRequires:	jdk
 BuildRequires:	gnu.regexp
 Requires:	gnu.regexp
