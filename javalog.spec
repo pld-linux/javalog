@@ -31,7 +31,7 @@ JavaLog jest zestawem klas, który formatuje i zapisuje zdarzenia do
 jednego lub wiêcej urz±dzeñ loguj±cych. JavaLog daje programi¶cie o
 wiele wiêksze mo¿liwo¶ci ni¿ ma³o elastyczne instrukcje 'print'.
 Oferuje mu abstrakcyjny interfejs do ró¿nych urz±dzeñ loguj±cych oraz
-umo¿liwa u¿ytkownikowi skonfigurowanie ka¿dego urz±dzenia w momencie
+umo¿liwia u¿ytkownikowi skonfigurowanie ka¿dego urz±dzenia w momencie
 uruchomienia aplikacji. Dodatkowo, JavaLog umo¿liwia u¿ytkownikowi,
 odpowiednio do jego potrzeb, filtrowanie i formatowanie logowanych
 zdarzeñ.
