@@ -5,16 +5,16 @@ Version:	0.7.3
 Release:	2
 License:	MPL
 Group:		Development/Languages/Java
-Url:		http://javalog.sourceforge.net
-Source0:	http://prdownloads.sourceforge.net/%{name}/grace-%{version}.tar.gz
-BuildRequires:	jdk
+Source0:	http://dl.sourceforge.net/%{name}/grace-%{version}.tar.gz
+URL:		http://javalog.sourceforge.net/
 BuildRequires:	gnu.regexp
+BuildRequires:	jdk
 Requires:	gnu.regexp
 Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_javaclassdir	%{_libdir}/java/
+%define		_javaclassdir	%{_libdir}/java
 
 %description
 The JavaLog is a set of Java classes that formats and writes events to
