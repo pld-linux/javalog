@@ -4,8 +4,6 @@ Name:		javalog
 Version:	0.7.3
 Release:	2
 Group:		Development/Languages/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(pl):	Programowanie/Jêzyki/Java
 Url:		http://javalog.sourceforge.net
 Source0:	http://prdownloads.sourceforge.net/%{name}/grace-%{version}.tar.gz
 License:	Mozilla Public License
