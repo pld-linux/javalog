@@ -6,6 +6,7 @@ Release:	2
 License:	MPL
 Group:		Development/Languages/Java
 Source0:	http://dl.sourceforge.net/%{name}/grace-%{version}.tar.gz
+# Source0-md5:	bd444dbd1e6b9ad7eeafcb1978c2feb8
 URL:		http://javalog.sourceforge.net/
 BuildRequires:	gnu.regexp
 BuildRequires:	jdk
