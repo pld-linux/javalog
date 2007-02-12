@@ -1,5 +1,5 @@
 Summary:	JavaLog
-Summary(pl):	JavaLog
+Summary(pl.UTF-8):   JavaLog
 Name:		javalog
 Version:	0.7.3
 Release:	2
@@ -26,15 +26,15 @@ each log device at run time. Additionally, JavaLog allows the user to
 dynamically filter and format the logged events to suit his particular
 needs at run time.
 
-%description -l pl
-JavaLog jest zestawem klas, który formatuje i zapisuje zdarzenia do
-jednego lub wiêcej urz±dzeñ loguj±cych. JavaLog daje programi¶cie o
-wiele wiêksze mo¿liwo¶ci ni¿ ma³o elastyczne instrukcje 'print'.
-Oferuje mu abstrakcyjny interfejs do ró¿nych urz±dzeñ loguj±cych oraz
-umo¿liwia u¿ytkownikowi skonfigurowanie ka¿dego urz±dzenia w momencie
-uruchomienia aplikacji. Dodatkowo, JavaLog umo¿liwia u¿ytkownikowi,
+%description -l pl.UTF-8
+JavaLog jest zestawem klas, ktÃ³ry formatuje i zapisuje zdarzenia do
+jednego lub wiÄ™cej urzÄ…dzeÅ„ logujÄ…cych. JavaLog daje programiÅ›cie o
+wiele wiÄ™ksze moÅ¼liwoÅ›ci niÅ¼ maÅ‚o elastyczne instrukcje 'print'.
+Oferuje mu abstrakcyjny interfejs do rÃ³Å¼nych urzÄ…dzeÅ„ logujÄ…cych oraz
+umoÅ¼liwia uÅ¼ytkownikowi skonfigurowanie kaÅ¼dego urzÄ…dzenia w momencie
+uruchomienia aplikacji. Dodatkowo, JavaLog umoÅ¼liwia uÅ¼ytkownikowi,
 odpowiednio do jego potrzeb, filtrowanie i formatowanie logowanych
-zdarzeñ.
+zdarzeÅ„.
 
 %prep
 %setup -q -n grace-%{version}
