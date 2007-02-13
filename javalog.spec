@@ -1,5 +1,5 @@
 Summary:	JavaLog
-Summary(pl.UTF-8):   JavaLog
+Summary(pl.UTF-8):	JavaLog
 Name:		javalog
 Version:	0.7.3
 Release:	2
